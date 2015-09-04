@@ -42,6 +42,6 @@ module.exports = function(grunt){
 
   grunt.registerTask('serve', ['connect']);
   grunt.registerTask('default', [
-    'less', 'watch'
+    'browserify', 'less', 'watch'
   ]);
 };
